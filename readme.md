@@ -1,10 +1,6 @@
 # PlantLidar : A Lidar package for Plant-Phenotype research
 
 ![seg](asserts/seg.png)
-<div align="center">
-  <img src="asserts/pcd.png" width="49%" height=280/>
-  <img src="asserts/chm.png" width="49%" height=300/>
-</div>
 
 
 ## Installation
