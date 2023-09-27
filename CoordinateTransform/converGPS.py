@@ -1,7 +1,7 @@
 '''
-WGS84的经纬度 转 UTM的x,y
-epsg:泰安市-32650
-更多查询 https://www.dmap.co.uk/utmworld.htm
+WGS84 to UTM50
+epsg:TaiAn China -32650
+more areas: https://www.dmap.co.uk/utmworld.htm
 '''
 from pyproj import Transformer
 from posixpath import split
