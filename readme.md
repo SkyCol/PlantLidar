@@ -1,4 +1,4 @@
-# PlantLidar : A Lidar package for Plant-Phenotype research
+# PlantLidar : PointCloud analysis focus on solving 3D phenotypes of plants and remote sensing problems
 
 ![seg](asserts/seg.png)
 
