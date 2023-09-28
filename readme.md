@@ -3,9 +3,14 @@
 ![seg](asserts/seg.png)
 
 
+
 ## Installation
 ```
 pip install PlantLidar
+```
+or
+```
+python install setup.py
 ```
 
 ## To get pointcloud
@@ -15,21 +20,3 @@ using a camera can also get a pointcloud by inputing multiple view images to [co
 
 ## Quick Run
 More details please check [PlantLidar-wiki](https://github.com/SkyCol/PlantLidar/wiki/PlantLidar-wiki)
-
-### Compute dtm
-
-```
-
-```
-
-### Compute height    
-
-```
-
-```
-
-### Compute biomass
-
-```
-
-```
