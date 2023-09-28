@@ -9,9 +9,6 @@
 pip install PlantLidar
 ```
 or
-```
-python install setup.py
-```
 
 ## To get pointcloud
 if using a lidar, build a map from lidar scan through slam algorithm([FAST-LIO](https://github.com/hku-mars/FAST_LIO)) .   
