@@ -25,7 +25,6 @@ pl.plot3D(pcd)
 ground_pcd,non_ground_pcd = pl.processing.classify_ground(pcd,cloth_resolution=0.15,interations=500,
                                                           class_threshold = 0.16,plot=False)
 # pl.visualization.show_ground_result(ground_pcd,non_ground_pcd)
-
 pcd = pl.processing.normalize_height(pcd,ground_pcd,res=0.3,level="dtm")
 
 density_map = pl.processing.compute_density_map(pcd,res=0.5)
@@ -33,7 +32,6 @@ pl.plot2D(density_map,title="density map")
 
 chm = pl.compute_chm(pcd,0.3)
 pl.plot2D(chm,title="canopy height model")
-
 
 treetops = pl.search_treetops_on_chm(chm,2.5)
 crowns = pl.dalponte2016(chm,treetops)
