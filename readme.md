@@ -1,4 +1,4 @@
-# PlantLidar : PointCloud analysis focus on solving 3D phenotypes of plants and remote sensing problems
+# PlantLidar : PointCloud analysis focus on solving 3D plant phenotypes
 
 ![seg](asserts/seg.png)
 
